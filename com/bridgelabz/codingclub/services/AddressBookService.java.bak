@@ -1,0 +1,16 @@
+package com.bridgelabz.codingclub.services;
+
+/**
+*AddressBookService Interface
+*@author Pavitra
+*/
+
+public interface AddressBookService {
+    void addPerson(String first, String last,String address, String city, String state, String zip,String phone, String email);
+    void updatePerson();
+    void removePerson();
+    void display();
+    void save();
+    void loadData();
+    void sort();
+}
